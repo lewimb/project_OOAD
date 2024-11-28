@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "main.Main",
+      "projectName": "FP_OOAD",
+      "args": [
+        "--module-path",
+        "C:/Users/Lewi/Desktop/openjfx-23.0.1_windows-x64_bin-sdk/javafx-sdk-23.0.1/lib", // Fixed path with proper slashes
+        "--add-modules",
+        "javafx.controls,javafx.fxml" // Add any other required JavaFX modules
+      ]
+    }
+  ]
+}
